@@ -56,7 +56,9 @@ a, .btn,[ui-sref] {
 }
 //bootstrap forms
 /* Start writing sass here */
-
+.mg{
+  margin-top: 416px;
+}
 .navbar-default{
   background-color: #4f0c03;
   li{
@@ -67,7 +69,6 @@ a, .btn,[ui-sref] {
 }
 
 .features{
-  padding: 20px 0;
   a{
     display: block;
     font-size: 20px;
@@ -83,6 +84,7 @@ a, .btn,[ui-sref] {
 }
 
 .navigation{
+  padding: 40px 0 20px;
   li{
     margin: 0 5px;
     a{
@@ -98,6 +100,7 @@ a, .btn,[ui-sref] {
 }
 
 .logo-center{
+  padding: 98px 0 30px;
   a{
     display: block;
       margin: 0 auto;

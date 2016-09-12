@@ -10,12 +10,14 @@ angular.module('phonecatControllers', ['templateservicemod', 'navigationservice'
   TemplateService.title = $scope.menutitle;
   $scope.navigation = NavigationService.getnav();
 
-  $scope.mySlides = [
-    'http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg',
-    'http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg',
-    'http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg',
-    'http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg'
-  ];
+  $scope.section = {
+      one: "views/section/section1.html",
+      two: "views/section/section2.html",
+      three: "views/section/section3.html",
+      four: "views/section/section4.html",
+      five: "views/section/section5.html",
+      six: "views/section/section6.html"
+  };
 })
 
 .controller('headerctrl', function($scope, TemplateService) {
